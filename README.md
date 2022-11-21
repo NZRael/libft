@@ -1,2 +1,3 @@
 # libft
-projet libft, 42 cursus first project
+sboetti,
+projet libft, 42 cursus first project.
