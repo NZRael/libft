@@ -6,7 +6,7 @@
 /*   By: sboetti <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 14:46:57 by sboetti           #+#    #+#             */
-/*   Updated: 2022/11/21 14:54:43 by sboetti          ###   ########.fr       */
+/*   Updated: 2022/11/21 16:14:09 by sboetti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static char	*ft_strsplitdup(char *src, int min, int max)
 	int		i;
 
 	i = max - min;
-	str = malloc(sizeof(char) * i + 1);
+	str = malloc(sizeof(char) * (i + 1));
 	i = 0;
 	if (str == NULL)
 		return (NULL);

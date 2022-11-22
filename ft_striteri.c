@@ -6,7 +6,7 @@
 /*   By: sboetti <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 15:54:13 by sboetti           #+#    #+#             */
-/*   Updated: 2022/11/16 16:16:52 by sboetti          ###   ########.fr       */
+/*   Updated: 2022/11/22 09:26:06 by sboetti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 	unsigned int	i;
 
 	if (!s)
-		i = 0;
+		return ;
 	else
 	{
 		i = 0;
